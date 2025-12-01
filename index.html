@@ -1,23 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Teste Bootstrap</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <nav class="navbar"></nav>
-      <div class="title-container d-flex justify-content-center  align-items-center">
-        <h1>Teste - Bootstrap ativo</h1>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NeuroHub</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen flex flex-col">
+  <div id="navbar"></div>
+  <section class="pt-32 pb-20 px-4 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-green-50 opacity-60"></div>
+    <div class="container mx-auto relative z-10 text-center max-w-4xl">
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6"
+        style="background-color: rgba(68, 242, 161, 0.15); color: #1a1a2e">
+        <span style="color: #44f2a1">✨</span>
+        <span>Seu bem-estar é nossa prioridade</span>
+      </div>
+
+      <h1 class="mb-6 leading-tight">
+        Entenda Melhor Sua
+        <span style="color: #416ef2">Neurodivergência</span>
+      </h1>
+
+      <p class="mb-8 max-w-2xl mx-auto text-gray-600">
+        A neurodivergência é uma parte importante da diversidade humana. Nosso
+        objetivo é incentivar você a buscar auxílio médico profissional e
+        realizar os exames necessários para compreender melhor suas
+        características únicas.
+      </p>
+
+      <div class="flex flex-wrap gap-4 justify-center mb-12">
+        <a href="/formspage.html" class="px-6 py-3 text-white rounded-lg flex items-center gap-2"
+          style="background-color: #416ef2">
+          Iniciar Questionário →
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+        <div class="p-6 rounded-xl bg-white/80 backdrop-blur border-2" style="border-color: rgba(65, 110, 242, 0.2)">
+          <div class="text-center mb-3" style="color: #44f2a1; font-size: 32px">
+            ✔
+          </div>
+          <h3 class="mb-2">Autoconhecimento</h3>
+          <p class="text-gray-600">
+            Compreenda melhor suas características e padrões
+          </p>
+        </div>
+
+        <div class="p-6 rounded-xl bg-white/80 backdrop-blur border-2" style="border-color: rgba(65, 110, 242, 0.2)">
+          <div class="text-center mb-3" style="color: #416ef2; font-size: 32px">
+            👥
+          </div>
+          <h3 class="mb-2">Orientação Profissional</h3>
+          <p class="text-gray-600">
+            Saiba quando procurar ajuda especializada
+          </p>
+        </div>
+
+        <div class="p-6 rounded-xl bg-white/80 backdrop-blur border-2" style="border-color: rgba(65, 110, 242, 0.2)">
+          <div class="text-center mb-3" style="color: #f2d750; font-size: 32px">
+            ✨
+          </div>
+          <h3 class="mb-2">Acolhimento</h3>
+          <p class="text-gray-600">Informações com respeito e empatia</p>
+        </div>
       </div>
     </div>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <section class="py-16 px-4">
+    <div class="container mx-auto">
+      <div class="max-w-3xl mx-auto rounded-2xl p-12 text-center border-2 relative overflow-hidden" style="
+            background-color: rgba(65, 110, 242, 0.05);
+            border-color: #416ef2;
+          ">
+        <div class="absolute top-0 right-0 w-64 h-64 rounded-full opacity-20"
+          style="background-color: #44f2a1; filter: blur(80px)"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 rounded-full opacity-20"
+          style="background-color: #f2d750; filter: blur(80px)"></div>
+
+        <div class="relative z-10">
+          <h2 class="mb-4">Dê o Primeiro Passo</h2>
+
+          <p class="mb-8 text-gray-600 max-w-xl mx-auto">
+            Responda ao nosso questionário e descubra se pode ser importante
+            buscar uma avaliação profissional especializada em
+            neurodivergência.
+          </p>
+
+          <a href="/formspage.html" class="px-6 py-3 text-white rounded-lg inline-flex items-center gap-2"
+            style="background-color: #416ef2">
+            Começar Agora →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 px-4" style="background-color: #f8fafc">
+    <div class="container mx-auto text-center mb-12">
+      <h2 class="mb-4">VOCÊ NÃO ESTÁ SOZINHO</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        A neurodivergência faz parte da diversidade humana. Milhões de pessoas
+        vivem vidas plenas e realizadas com diferentes formas de processar o
+        mundo.
+      </p>
+    </div>
+
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl">
+      <div class="aspect-square rounded-2xl overflow-hidden border-2 shadow-lg"
+        style="border-color: rgba(65, 110, 242, 0.2)">
+        <img src="https://direcionalescolas.com.br/wp-content/uploads/2023/07/colar-autismo.png" alt="Pessoa neurodivergente 1"
+          class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" />
+      </div>
+
+      <div class="aspect-square rounded-2xl overflow-hidden border-2 shadow-lg"
+        style="border-color: rgba(65, 110, 242, 0.2)">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.qE87nWxkWKmBx07R6LTaPAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Pessoa neurodivergente 2"
+          class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" />
+      </div>
+
+      <div class="aspect-square rounded-2xl overflow-hidden border-2 shadow-lg"
+        style="border-color: rgba(65, 110, 242, 0.2)">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.n7nAmaqPa5vl3t_0-es9igHaEO?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Pessoa neurodivergente 3"
+          class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" />
+      </div>
+
+      <div class="aspect-square rounded-2xl overflow-hidden border-2 shadow-lg"
+        style="border-color: rgba(65, 110, 242, 0.2)">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.lB2EJ8AXSxeUXQlNX5_5FQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Pessoa neurodivergente 4"
+          class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" />
+      </div>
+    </div>
+  </section>
+
+  <div id="footer"></div>
+
+  <script>
+    // NAVBAR
+    fetch("components/navbar.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("navbar").innerHTML = html);
+
+    // FOOTER
+    fetch("components/footer.html")
+      .then(res => res.text())
+      .then(html => document.getElementById("footer").innerHTML = html);
+  </script>
+
+</body>
+
 </html>
