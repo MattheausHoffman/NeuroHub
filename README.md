@@ -18,27 +18,7 @@ O NeuroHub é uma plataforma web desenvolvida durante uma hackathon com o objeti
 - HTML5
 - CSS3 / TailwindCSS
 - JavaScript (Vanilla)
-- Componentização simples via JS (pasta components)
 - Estrutura modular de páginas (forms.html, formspage.html)
-
-------------------------------------------------------------
-
-## 📁 Estrutura do Projeto
-
-NeuroHub/
-│── index.html  
-│── forms.html  
-│── formspage.html  
-│── forms.js  
-│
-├── css/  
-│   └── style.css  
-│
-├── components/  
-│   ├── navbar.html  
-│   └── footer.html  
-│
-└── .git/
 
 ------------------------------------------------------------
 
